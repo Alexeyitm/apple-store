@@ -1,0 +1,9 @@
+.header__pulldown-basket {
+  border: 0;
+  margin: 20px 31px 0 0;
+  padding: 0;
+  width: 23.2px;
+  height: 23.2px;
+  background: url(../../../images/svg/header-basket.svg) no-repeat;
+  background-size: contain;
+}

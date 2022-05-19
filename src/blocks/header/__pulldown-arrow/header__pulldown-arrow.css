@@ -1,0 +1,11 @@
+.header__pulldown-arrow {
+  position: absolute;
+  top: 5px;
+  right: -13px;
+  width: 8px;
+  height: 5px;
+  padding: 0;
+  border: none;
+  background-image: url(../../../images/svg/header-arrow.svg);
+  background-size: cover;
+}

@@ -1,0 +1,6 @@
+.header {
+  max-width: 1135px;
+  margin: 0 auto;
+  border: 1px solid;
+  display: flex;
+}
