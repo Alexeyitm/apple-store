@@ -7,3 +7,9 @@
   background-image: url(../../../images/svg/header-mobile.svg);
   background-size: cover;
 }
+
+@media screen and (max-width: 767px) {
+  .header__pulldown-phone {
+    display: none;
+  }
+}

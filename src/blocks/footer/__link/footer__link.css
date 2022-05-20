@@ -1,0 +1,10 @@
+.footer__link {
+  margin-left: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  cursor: pointer;
+}

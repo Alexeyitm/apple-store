@@ -1,0 +1,8 @@
+.footer__wa {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../images/svg/footer-wa.svg);
+  background-size: cover;
+  cursor: pointer;
+}

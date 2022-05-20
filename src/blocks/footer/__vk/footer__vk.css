@@ -1,0 +1,9 @@
+.footer__vk {
+  margin-top: 5px;
+  display: block;
+  width: 30px;
+  height: 20px;
+  background-image: url(../../../images/svg/footer-vk.svg);
+  background-size: cover;
+  cursor: pointer;
+}

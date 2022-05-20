@@ -11,18 +11,157 @@
   <title>Apple store</title>
 </head>
 <body class="page">
+  <div class="container">
 
-  <header class="header">
-    <div class="header__logo">STORE</div>
-    <div class="header__pulldown">
-      <button class="header__pulldown-phone" type="button"></button>
-      <button class="header__pulldown-link">Выбрать модель телефона
-        <div class="header__pulldown-arrow" type="button"></div>
-      </button>
-    </div>
-    <button class="header__pulldown-like" type="button"></button>
-    <button class="header__pulldown-basket" type="button"></button>
-  </header>
+    <header class="header">
+      <div class="header__logo logo">STORE</div>
+      <div class="header__pulldown">
+        <div class="header__pulldown-phone" type="button"></div>
+        <button class="header__pulldown-link">Выбрать модель телефона
+          <div class="header__pulldown-arrow" type="button"></div>
+        </button>
+      </div>
+      <button class="header__like" type="button"></button>
+      <button class="header__basket" type="button"></button>
+      <button class="header__burger-button" type="button"></button>
 
+      <div class="header__menu">
+        <nav>
+        <ul class="header__menu-list header__menu-list_main">
+          <li class="header__menu-item">
+            <a class="header__menu-link header__menu-link_main header__menu-phone">IPhone
+              <div class="header__menu-arrow"></div>
+            </a>
+            <ul class="header__menu-list header__menu-list_sub">
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-phone11">IPhone 11</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-phone12">IPhone 12</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-phone12pro">IPhone 12 Pro</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-phone12promax">IPhone 12 Pro Max</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-phone13">IPhone 13</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-phone13pro">IPhone 13 Pro</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-phone13promax">IPhone 13 Pro Max</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link header__menu-link_main header__menu-air">MacBook Air
+              <div class="header__menu-arrow"></div>
+            </a>
+            <ul class="header__menu-list header__menu-list_sub">
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-air13">MacBook Air M1 13-inch</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link header__menu-link_main header__menu-pro">MacBook Pro
+              <div class="header__menu-arrow"></div>
+            </a>
+            <ul class="header__menu-list header__menu-list_sub">
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-pro13">MacBook Pro M1 13-inch</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link header__menu-link_main header__menu-ipad">IPad
+              <div class="header__menu-arrow"></div>
+            </a>
+            <ul class="header__menu-list header__menu-list_sub">
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-ipad2021">iPad 10.2-inch 2021</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-ipad2022">iPad Air 10.9-inch 2022</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link header__menu-link_main header__menu-airpods">AirPods
+              <div class="header__menu-arrow"></div>
+            </a>
+            <ul class="header__menu-list header__menu-list_sub">
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-ipad3">AirPods (3rd Generation)</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link header__menu-link_sub header__menu-airpodspro">AirPods Pro</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+    <section class="banner">
+      <h1 class="banner__title">IPhone, MacBook, IPad и Airpods из США</h1>
+      <img class="banner__png" src="../../images/png/banner-iphone.png">
+    </section>
+
+    <section class="section popular">
+      <h2 class="popular__title title">Популярное</h2>
+      <div class="popular__container"></div>
+    </section>
+
+    <section class="section iphone">
+      <h2 class="iphone__title title">IPhone</h2>
+      <div class="iphone__container"></div>
+    </section>
+
+    <section class="section macbook">
+      <h2 class="macbook__title title">MacBook</h2>
+      <div class="macbook__container"></div>
+    </section>
+
+    <section class="section ipad">
+      <h2 class="ipad__title title">IPad</h2>
+      <div class="ipad__container"></div>
+    </section>
+
+    <section class="section airpods">
+      <h2 class="airpods__title title">AirPods</h2>
+      <div class="airpods__container"></div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__logo logo">STORE</div>
+      <ul class="footer__links">
+        <li><a class="footer__link">Избранное</a></li>
+        <li><a class="footer__link">Корзина</a></li>
+        <li><a class="footer__link">Контакты</a></li>
+        <li><a class="footer__link">Условия сервиса</a></li>
+        <li><a></a></li>
+        <li>
+          <div class="footer__lang">
+            <div class="footer__world"></div>
+            <a class="footer__lang-link footer__lang-link_active">Рус</a>
+            <a class="footer__lang-link">Eng</a>
+            <a class="footer__lang-link">Каз</a>
+          </div>
+        </li>
+      </ul>
+      <div class="footer__social">
+        <a class="footer__vk"></a>
+        <a class="footer__inst"></a>
+        <a class="footer__tg"></a>
+        <a class="footer__wa"></a>
+      </div>
+    </footer>
+
+  </div>
 </body>
 </html>

@@ -1,0 +1,8 @@
+.footer__tg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../images/svg/footer-tg.svg);
+  background-size: cover;
+  cursor: pointer;
+}

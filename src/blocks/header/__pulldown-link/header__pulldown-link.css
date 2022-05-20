@@ -11,5 +11,11 @@
   font-size: 15px;
   line-height: 18px;
   color: #101010;
-  display: inline-block;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__pulldown-link {
+    display: none;
+  }
 }

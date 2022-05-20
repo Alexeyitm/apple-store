@@ -1,0 +1,6 @@
+.header__menu-arrow {
+  margin-top: 7px;
+  width: 10px;
+  height: 7px;
+  background: url(../../../images/svg/header-menu-arrow.svg);
+}

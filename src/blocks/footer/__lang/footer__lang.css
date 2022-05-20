@@ -1,0 +1,12 @@
+.footer__lang {
+  width: 151px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #101010;
+}

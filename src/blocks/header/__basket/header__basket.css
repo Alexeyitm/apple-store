@@ -1,9 +1,16 @@
-.header__pulldown-basket {
+.header__basket {
   border: 0;
-  margin: 20px 31px 0 0;
+  margin: 18px 0 0;
   padding: 0;
   width: 23.2px;
   height: 23.2px;
   background: url(../../../images/svg/header-basket.svg) no-repeat;
   background-size: contain;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__basket {
+    margin-left: auto;
+  }
 }
