@@ -12,6 +12,11 @@
   line-height: 18px;
   color: #101010;
   cursor: pointer;
+  transition: color .5s ease;
+}
+
+.header__pulldown-link:hover {
+  color: #FFA542;
 }
 
 @media screen and (max-width: 767px) {

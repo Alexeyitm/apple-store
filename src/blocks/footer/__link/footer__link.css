@@ -7,4 +7,23 @@
   line-height: 21px;
   color: #000000;
   cursor: pointer;
+  transition: color .5s ease;
+}
+
+.footer__link:hover {
+  color: #FFA542;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .footer__link {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }

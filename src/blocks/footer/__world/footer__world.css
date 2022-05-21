@@ -4,3 +4,10 @@
   background-image: url(../../../images/svg/footer-world.svg);
   background-size: cover;
 }
+
+@media screen and (max-width: 427px) {
+  .footer__world {
+    width: 14px;
+    height: 14px;
+  }
+}

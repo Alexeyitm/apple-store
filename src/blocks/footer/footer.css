@@ -7,4 +7,21 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .footer {
+    margin-top: 20px;
+  }
 }

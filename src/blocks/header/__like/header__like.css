@@ -8,6 +8,11 @@
   background-size: contain;
   margin-left: auto;
   cursor: pointer;
+  transition: opacity .5s ease;
+}
+
+.header__like:hover {
+  opacity: .5;
 }
 
 @media screen and (max-width: 767px) {

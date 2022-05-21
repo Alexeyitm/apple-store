@@ -7,3 +7,16 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 776px) {
+  .footer__social {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .footer__social {
+    margin-right: 20px;
+    width: 120px;
+  }
+}

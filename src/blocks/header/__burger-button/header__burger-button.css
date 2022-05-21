@@ -8,6 +8,11 @@
   background: url(../../../images/svg/header-burger.svg) no-repeat;
   display: none;
   cursor: pointer;
+  transition: opacity .5s ease;
+}
+
+.header__burger-button:hover {
+  opacity: .5;
 }
 
 @media screen and (max-width: 767px) {

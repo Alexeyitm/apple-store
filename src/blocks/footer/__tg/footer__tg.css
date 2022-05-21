@@ -5,4 +5,17 @@
   background-image: url(../../../images/svg/footer-tg.svg);
   background-size: cover;
   cursor: pointer;
+  transition: opacity .5s ease;
+}
+
+.footer__tg:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 427px) {
+  .footer__tg {
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+  }
 }

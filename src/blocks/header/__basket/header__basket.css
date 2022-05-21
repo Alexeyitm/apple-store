@@ -7,6 +7,11 @@
   background: url(../../../images/svg/header-basket.svg) no-repeat;
   background-size: contain;
   cursor: pointer;
+  transition: opacity .5s ease;
+}
+
+.header__basket:hover {
+  opacity: .5;
 }
 
 @media screen and (max-width: 767px) {

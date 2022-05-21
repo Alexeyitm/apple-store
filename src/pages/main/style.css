@@ -22,6 +22,7 @@
 @import url(../../blocks/header/__menu-link/_main/header__menu-link_main.css);
 @import url(../../blocks/header/__menu-link/_sub/header__menu-link_sub.css);
 @import url(../../blocks/header/__menu-arrow/header__menu-arrow.css);
+@import url(../../blocks/header/__background/header__background.css);
 
 @import url(../../blocks/banner/banner.css);
 @import url(../../blocks/banner/__title/banner__title.css);

@@ -1,3 +1,8 @@
 .footer__lang-link {
   cursor: pointer;
+  transition: color .5s ease;
+}
+
+.footer__lang-link:hover {
+  color: #FFA542;
 }
