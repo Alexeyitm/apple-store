@@ -1,0 +1,5 @@
+.overlay_opened {
+  z-index: 1;
+  opacity: 1;
+  
+}

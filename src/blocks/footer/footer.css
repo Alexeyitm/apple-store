@@ -8,10 +8,6 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
 
 @media screen and (max-width: 767px) {
