@@ -1,0 +1,5 @@
+.header__burger-lang_active {
+  color: #FFA542;
+  cursor: default;
+  border-bottom: 2px #FFA542 solid;
+}

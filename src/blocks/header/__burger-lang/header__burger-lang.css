@@ -1,0 +1,14 @@
+.header__burger-lang {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #101010;
+  transition: color .5s ease;
+}
+
+.header__burger-lang:hover {
+  color: #FFA542;
+  cursor: pointer;
+}

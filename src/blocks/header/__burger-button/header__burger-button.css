@@ -8,6 +8,7 @@
   background: url(../../../images/svg/header-burger.svg) no-repeat;
   display: none;
   cursor: pointer;
+  z-index: 3;
   transition: opacity .5s ease;
 }
 
