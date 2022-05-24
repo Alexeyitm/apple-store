@@ -10,10 +10,8 @@ burgerMenu.setEventListeners();
 
 buttonMenuHeader.addEventListener('click', () => {
   headerMenu.open();
-  overlay.classList.add('overlay_opened');
 });
 
 buttonBurgerHeader.addEventListener('click', () => {
   burgerMenu.open();
-  overlay.classList.remove('overlay_opened');
 });

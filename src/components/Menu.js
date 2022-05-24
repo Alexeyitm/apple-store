@@ -9,14 +9,22 @@ export default class Menu {
   }
 
   open() {
-    this._menu.classList.add(this._openSelector);
     document.addEventListener('keydown', this._handleEscClose);
+    overlay.classList.add('overlay_opened');
+
+    if (!this._menu.classList.contains(this._openSelector)) {
+      this._menu.classList.add(this._openSelector);
+    } 
+    else {
+      this.close();
+    }
   }
 
   close() {
-    this._menu.classList.remove(this._openSelector);
     document.removeEventListener('keydown', this._handleEscClose);
     overlay.classList.remove('overlay_opened');
+    
+    this._menu.classList.remove(this._openSelector);
   }
 
   _handleEscClose(evt) {

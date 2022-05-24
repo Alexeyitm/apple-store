@@ -9,7 +9,7 @@
   display: none;
   cursor: pointer;
   z-index: 3;
-  transition: opacity .5s ease;
+  transition: all .5s ease;
 }
 
 .header__burger-button:hover {

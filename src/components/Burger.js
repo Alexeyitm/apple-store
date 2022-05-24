@@ -6,17 +6,10 @@ export default class Burger extends Menu  {
     super(menuSelector, openSelector);
   }
 
-  open() {
-    super.open();
-    //buttonBurgerHeader.addEventListener('click', () => {
-    //  this.close();
-    //});   
-  }
-
-  close() {
-    super.close();
-    //buttonBurgerHeader.removeEventListener('click', () => {
-    //  this.close();
-    //}); 
+  setEventListeners() {
+    super.setEventListeners();
+    buttonBurgerHeader.addEventListener('click', () => {
+      buttonBurgerHeader.classList.toggle('header__burger-button_opened');
+    });
   }
 }
