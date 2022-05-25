@@ -25,7 +25,7 @@
 @import url(../../blocks/header/__menu-link/_sub/header__menu-link_sub.css);
 @import url(../../blocks/header/__menu-arrow/header__menu-arrow.css);
 @import url(../../blocks/header/__burger/header__burger.css);
-@import url(../../blocks/header/__burger/_opened/header__burger_active.css);
+@import url(../../blocks/header/__burger/_opened/header__burger_opened.css);
 @import url(../../blocks/header/__burger-links/header__burger-links.css);
 @import url(../../blocks/header/__burger-link/header__burger-link.css);
 @import url(../../blocks/header/__burger-langs/header__burger-langs.css);
