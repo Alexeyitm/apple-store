@@ -4,7 +4,7 @@
   background: #FFFFFF;
   border-radius: 0px 0px 0px 20px;
   top: 0;
-  left: calc(100vw);
+  right: -294px;
   z-index: 2;
   transition: all .7s ease-in-out;
 }
