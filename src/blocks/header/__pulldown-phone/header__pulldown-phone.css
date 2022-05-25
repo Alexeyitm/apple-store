@@ -1,0 +1,15 @@
+.header__pulldown-phone {
+  width: 15px;
+  height: 21px;
+  margin-right: 15px;
+  padding: 0;
+  border: none;
+  background-image: url(../../../images/svg/header-mobile.svg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .header__pulldown-phone {
+    display: none;
+  }
+}

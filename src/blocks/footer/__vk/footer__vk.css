@@ -1,0 +1,22 @@
+.footer__vk {
+  margin-top: 5px;
+  display: block;
+  width: 30px;
+  height: 20px;
+  background-image: url(../../../images/svg/footer-vk.svg);
+  background-size: cover;
+  cursor: pointer;
+  transition: opacity .5s ease;
+}
+
+.footer__vk:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 427px) {
+  .footer__vk {
+    margin-top: 7px;
+    width: 22.5px;
+    height: 15px;
+  }
+}

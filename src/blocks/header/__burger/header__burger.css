@@ -1,0 +1,10 @@
+.header__burger {
+  width: 294px;
+  position: fixed;
+  background: #FFFFFF;
+  border-radius: 0px 0px 0px 20px;
+  top: 0;
+  left: calc(100vw);
+  z-index: 2;
+  transition: all .7s ease-in-out;
+}

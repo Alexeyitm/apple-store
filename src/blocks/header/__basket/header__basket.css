@@ -1,0 +1,21 @@
+.header__basket {
+  border: 0;
+  margin: 18px 0 0;
+  padding: 0;
+  width: 23.2px;
+  height: 23.2px;
+  background: url(../../../images/svg/header-basket.svg) no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  transition: opacity .5s ease;
+}
+
+.header__basket:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 767px) {
+  .header__basket {
+    margin-left: auto;
+  }
+}

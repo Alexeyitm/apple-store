@@ -1,0 +1,22 @@
+.footer__social {
+  width: 174px;
+  padding: 0;
+  margin: 29px 29px 0 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 776px) {
+  .footer__social {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .footer__social {
+    margin-right: 20px;
+    width: 120px;
+  }
+}

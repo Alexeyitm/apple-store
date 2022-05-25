@@ -1,0 +1,23 @@
+.footer {
+  max-width: 90%;
+  margin: 60px auto 0;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px 30px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .footer {
+    margin-top: 20px;
+  }
+}

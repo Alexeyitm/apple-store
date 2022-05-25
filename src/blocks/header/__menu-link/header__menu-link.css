@@ -1,0 +1,11 @@
+.header__menu-link {
+  padding: 0;
+  border: 0;
+  width: 149px;
+  display: block;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+.header__like {
+  border: 0;
+  padding: 0;
+  margin: 21px 45px 0 0;
+  width: 22px;
+  height: 20px;
+  background: url(../../../images/svg/header-like.svg) no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  cursor: pointer;
+  transition: opacity .5s ease;
+}
+
+.header__like:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 767px) {
+  .header__like {
+    display: none;
+  }
+}

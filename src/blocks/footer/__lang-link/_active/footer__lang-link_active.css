@@ -1,0 +1,9 @@
+.footer__lang-link_active {
+  color: #FFA542;
+  cursor: default;
+  border-bottom: 2px #FFA542 solid;
+}
+
+.footer__lang-link_active:hover {
+  opacity: 1;
+}

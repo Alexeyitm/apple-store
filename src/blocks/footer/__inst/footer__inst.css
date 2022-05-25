@@ -1,0 +1,21 @@
+.footer__inst {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../images/svg/footer-inst.svg);
+  background-size: cover;
+  cursor: pointer;
+  transition: opacity .5s ease;
+}
+
+.footer__inst:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 427px) {
+  .footer__inst {
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+  }
+}

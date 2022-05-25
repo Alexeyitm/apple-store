@@ -1,0 +1,15 @@
+.header__menu-link_sub {
+  width: auto;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #101010;
+  cursor: pointer;
+  transition: all .5s ease;
+  display: inline-block;
+}
+
+.header__menu-link_sub:hover {
+  color: #FFA542;
+  margin-left: 5px;
+}

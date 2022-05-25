@@ -1,0 +1,3 @@
+.header__burger_opened {
+  left: calc(100vw - 294px);
+}

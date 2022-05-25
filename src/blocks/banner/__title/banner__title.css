@@ -1,0 +1,27 @@
+.banner__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 58px 0 0;
+  max-width: 300px;
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .banner__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .banner__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 40px;
+  }
+}

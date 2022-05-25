@@ -1,0 +1,6 @@
+.header__burger-langs {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  padding: 10px 0 20px 0;
+}

@@ -1,0 +1,3 @@
+.header__burger-button_opened {
+  transform: rotate(90deg);
+}

@@ -1,0 +1,12 @@
+.header__menu {
+  width: 255px;
+  background: #EAEAEA;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 30px 30px;
+  position: absolute;
+  top: -573px;
+  left: 162px;
+  z-index: 2;
+  position: absolute;
+  transition: all .7s ease-in-out;
+}

@@ -1,0 +1,26 @@
+.header__pulldown-link {
+  position: relative;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  max-height: 18px;
+  margin-top: 1px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #101010;
+  cursor: pointer;
+  transition: color .5s ease;
+}
+
+.header__pulldown-link:hover {
+  color: #FFA542;
+}
+
+@media screen and (max-width: 767px) {
+  .header__pulldown-link {
+    display: none;
+  }
+}
