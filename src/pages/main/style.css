@@ -57,7 +57,7 @@
 @import url(../../blocks/overlay/_opened/overlay_opened.css);
 
 @import url(../../blocks/element/element.css);
-
+@import url(../../blocks/element/__card/element__card.css);
 
 
 @import url(../../blocks/logo/logo.css);
