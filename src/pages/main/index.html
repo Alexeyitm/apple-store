@@ -6,9 +6,10 @@
   <meta name="description" content="Apple store">
   <meta name="keywords" content="HTML5, CSS">
   <meta name="author" content="Alexey Ponomarev">
+  <link rel="icon" href="../../images/png/icon.png">
   <link rel="stylesheet" href="../../vendor/normalize.css">
   <link rel="stylesheet" href="./style.css">
-  <title>Apple store</title>
+  <title>STORE</title>
 </head>
 <body class="page">
 
@@ -200,7 +201,6 @@
           </li>
         </ul>
       </div>
-      
     </header>
 
     <section class="banner">
@@ -210,27 +210,46 @@
 
     <section class="section popular">
       <h2 class="popular__title title">Популярное</h2>
-      <div class="popular__container"></div>
+      <ul class="container-cards popular__container">
+        <li class="element">
+          <article class="element__card">
+            <img class="element__img">
+            <h2 class="element__figcaption"></h2>
+          </article>
+        </li>
+        <li class="element">
+          <article class="element__card">
+            <img class="element__img">
+            <h2 class="element__figcaption"></h2>
+          </article>
+        </li>
+        <li class="element">
+          <article class="element__card">
+            <img class="element__img">
+            <h2 class="element__figcaption"></h2>
+          </article>
+        </li>
+      </ul>
     </section>
 
     <section class="section iphone">
       <h2 class="iphone__title title">IPhone</h2>
-      <div class="iphone__container"></div>
+      <ul class="container-cards iphone__container"></ul>
     </section>
 
     <section class="section macbook">
       <h2 class="macbook__title title">MacBook</h2>
-      <div class="macbook__container"></div>
+      <ul class="container-cards macbook__container"></ul>
     </section>
 
     <section class="section ipad">
       <h2 class="ipad__title title">IPad</h2>
-      <div class="ipad__container"></div>
+      <ul class="container-cards ipad__container"></ul>
     </section>
 
     <section class="section airpods">
       <h2 class="airpods__title title">AirPods</h2>
-      <div class="airpods__container"></div>
+      <ul class="container-cards airpods__container"></ul>
     </section>
 
     <footer class="footer">
@@ -261,6 +280,15 @@
     </footer>
 
     <div class="overlay"></div>
+
+    <template class="element-template element-template_popular">
+      <li class="element">
+        <article class="element__card">
+          <img class="element__img">
+          <h2 class="element__figcaption"></h2>
+        </article>
+      </li>
+    </template>
 
   </div>
 
