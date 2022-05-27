@@ -1,0 +1,7 @@
+.element {
+  width: 350px;
+  height: 408px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
